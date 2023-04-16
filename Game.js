@@ -40,16 +40,10 @@ function ShowEndScreen(){
     GameContext.fillText("Game Over", GameCanvas.width / 2 - GameCanvas.width / 10, GameCanvas.height / 2);
     GameContext.fillText("Score: " + points, GameCanvas.width / 2 - GameCanvas.width / 10, GameCanvas.height / 2 + 30);
     GameContext.fillText("Press R to restart", GameCanvas.width / 2 - GameCanvas.width / 10, GameCanvas.height / 2 + 60);
-    GameContext.fillText("Press H to submit to the scoreboard", GameCanvas.width / 2, GameCanvas.height / 2 + 90);
     downThisTick = {};
     window.addEventListener('keydown', function(e){
         if(e.keyCode == 82){
             location.reload();
-        }
-        if(e.keyCode == 72){
-            this.localStorage.setItem("score", points);
-            window.location.href = "/submit/";
-
         }
 
     });
