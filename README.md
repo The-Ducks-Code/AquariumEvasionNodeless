@@ -31,7 +31,7 @@ Have *you* ever wanted to ever reeanact the life of fish food? Well now you can!
       - Brute Spawn - Spawns 3 Brutes.
       - Dash - Aims and rushes at the player, leaving a spike behind
     - Kill Mechanism
-      - Spikes can be used (by swimming on them) to launch fish food at the Fish Summoner. If the soul is hit 4 times, it dies.
+      - Spikes can be used (by swimming on them) to launch fish food at the Fish Summoner. If the Summoner is hit 4 times, it dies.
 - Progression 
   - Your score increases every second you're alive. Your score affects a multitde of factors.
     - Speed of enemies
