@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aquarium Evasion</title>
+    <link rel="script" href="server.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -137,6 +138,7 @@
         <div style="margin: auto;"> <p id = "info">Click on start to begin the game.</p> </div>
         <h2 id="start" style="cursor:pointer"onclick="window.location = 'game.html'">Start</h2>
         <br>
+        <div><h3>Global High Score: <p id = "hscore" ></p></h3></div>
     </div>
     <!-- center a div absolutely on bottom right of page have a github icon -->
     <div style="position: absolute; bottom: 0; right: 0; margin: 10px; transform: translateY(0deg)">
@@ -151,6 +153,7 @@
     </div>
     <!-- div at absolute bottom center of page -->
     <div style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); margin: -6px;">
+        <h2 id="leaderboard" style="cursor:pointer;" onclick="window.location = '/leaderboard'">Leaderboard</h2>
     </div>
     
     
